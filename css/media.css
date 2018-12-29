@@ -1,0 +1,91 @@
+@media screen and ( max-width: 1470px){
+	.skills {
+    	margin-left: 5%;
+    	margin-right: 5%;
+	}
+}
+@media screen and ( max-width: 1200px){
+	.development__content,.Branding__img{
+		margin-left: 10%;
+	}
+	.skills__skill {
+		width: 400px;
+	}
+	.Contact__contact{
+		margin-left: 2%;
+	}
+	.contasts {
+    	width: 215px;
+	}
+}
+@media screen and ( max-width: 992px){
+	.development__content,.Branding__img{
+		margin-left: 0%;
+	}
+	.skills{
+	    margin-left: 1%;
+	    margin-right: 1%;
+	}
+	.skills__skill {
+		width: 350px;
+	}
+	.Contact{
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.Contact__contact{
+		margin: 0 auto;
+	}
+	.form{
+		margin: 50px auto 0 auto;
+	}
+	.copy{
+		width: 80%;
+	}
+}
+@media screen and ( max-width: 890px){
+	.Services{
+		display: flex;
+		flex-direction: column;
+	}
+	.text{
+		padding: 0;
+	}
+	.development__img,.Branding__img{
+		display: none;
+	}
+	.Branding, .development{
+		margin:0 auto;
+
+	}
+	.Branding__content, .development__content{
+		margin:0 10px;
+		width: 100%;
+	}
+
+}
+@media screen and ( max-width: 768px){
+	.Services__title{
+		font-size: 40px;
+	}
+	.offer__on-title{
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+	.offer__title{
+		font-size: 40px;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skills__skill {
+		margin: 0 auto;
+		width: 90%;
+	}
+	.form{
+		width: 90%;
+	}
+	.form__input,.form__message{
+		width: 90%;
+	}
+}
